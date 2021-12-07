@@ -80,7 +80,7 @@ const Signup = () => {
       {!isPending && <button className='btn'>Create account</button>}
       {isPending && (
         <button className='btn' disabled>
-          Loading
+          Creating account...
         </button>
       )}
       {error && <div className='error'>{error}</div>}
