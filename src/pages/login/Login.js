@@ -9,7 +9,7 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(email, password);
+    login(email, password);
   };
 
   return (
@@ -35,15 +35,13 @@ const Login = () => {
         />
       </label>
 
-      <button>Sign in</button>
-
-      {/* {!isPending && <button className='btn'>Sign in</button>}
+      {!isPending && <button className='btn'>Sign in</button>}
       {isPending && (
         <button className='btn' disabled>
           Signing in...
         </button>
       )}
-      {error && <div className='error'>{error}</div>} */}
+      {error && <div className='error'>{error}</div>}
     </form>
   );
 };
