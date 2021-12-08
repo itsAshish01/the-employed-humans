@@ -2,7 +2,7 @@ const filterList = [
   'all',
   'mine',
   'development',
-  'designs',
+  'design',
   'marketing',
   'sales',
 ];
